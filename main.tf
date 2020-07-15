@@ -4,15 +4,15 @@ provider "aws" {
 }
 
 terraform {
-  backend "s3" {
-    bucket = "terry-turtle"
+    backend "s3" {
+    bucket = "terry-the-hairy-turtle"
     key    = "default-infrastructure"
     region = "eu-central-1"
   }
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "terry-turtle"
+  bucket = "terry-the-hairy-turtle"
 
   versioning {
     enabled = true
