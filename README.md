@@ -30,6 +30,3 @@ Pre-requisites:
 10. `git add .` and `git commit -m "First commit"` to commit any changes
 11. `git push` to push to github
 
-## Having Problems?
-
-[Raise an issue](https://github.com/loujaybee/terraform-aws-github-action-bootstrap/issues)
