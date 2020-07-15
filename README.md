@@ -1,4 +1,3 @@
-
 # Terraform Github Actions Bootstrap
 
 Allows you to bootstrap a Terraform project on AWS using Github Actions. The purpose of the project is to make a simple sandbox for experimenting with Terraform resources using a CI pipeline.
@@ -8,12 +7,12 @@ For the companion article, check out: https://www.thedevcoach.co.uk/setup-terraf
 ## Setup Steps
 
 Pre-requisites: 
-* A setup AWS account
-* Git installed on your machine
+* A AWS account
+* Git installed on your local machine
 
 ### Step 1: Create the backend bucket
 
-1. Clone the repo `git@github.com:loujaybee/terraform-aws-github-action-bootstrap.git`
+1. Clone the repo
 2. Install the [Terraform](https://www.terraform.io/downloads.html) binary
 3. Set your bash variables locally 
     * `export AWS_ACCESS_KEY_ID=[your-key]` 
